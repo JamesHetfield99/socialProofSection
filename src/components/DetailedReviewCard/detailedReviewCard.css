@@ -1,0 +1,56 @@
+.det-rev-card {
+    background-color: var(--hslVeryDarkMagenta);
+    border-radius: 0.8rem;
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    height: fit-content;
+    flex: 1;
+}
+@media (max-width:600px) {
+    .det-rev-card {
+        margin-bottom: 2rem;
+    }
+}
+@media (min-width:600px){
+    .det-rev-card:nth-child(2) {
+        margin-top: 1.2rem;
+    }
+    .det-rev-card:nth-child(3) {
+        margin-top: 2.4rem;
+    }
+}
+.card-header{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.card-header img {
+    border-radius: 50%;
+    scale: 1/1;
+    width: 50px;
+    height: 50px;
+}
+
+.person-details{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.person-name,.verification-span {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.person-name{
+    color: var(--hslWhite);
+}
+.verification-span{
+    color: var(--hslSoftPink);
+}
+.det-rev-card {
+    color: var(--hslWhite);
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}

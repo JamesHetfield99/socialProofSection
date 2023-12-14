@@ -1,0 +1,11 @@
+.bottom-element {
+    margin-top: 4rem;
+}
+@media (min-width:600px) {
+    .bottom-element {
+        margin-top: 6rem;
+        display: flex;
+        justify-content: space-between;
+        gap: 2rem;
+    }
+}
